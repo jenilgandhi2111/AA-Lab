@@ -68,6 +68,7 @@ int main()
     cout << "------------------------------------------------\n";
     while (tt--)
     {
+        cout << "Enter source and pattern string" << endl;
         string source, pattern;
         cin >> source >> pattern;
         solve_rabin_karp(source, pattern);

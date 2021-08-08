@@ -56,10 +56,12 @@ void solve_KMP(string pattern, string source, vector<int> &pitable)
 int main()
 {
     int tt;
+    cout << "Enter TestCase:";
     cin >> tt;
     cout << "------------------------------------------------\n";
     while (tt--)
     {
+        cout << "Enter source and pattern strings" << endl;
         string source, pattern;
         cin >> source >> pattern;
         pattern = '#' + pattern;
