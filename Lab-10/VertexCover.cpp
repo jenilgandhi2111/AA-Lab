@@ -1,3 +1,11 @@
+/*********************************************************
+Written by:  Jenil J Gandhi
+Subject:     Advanced Algorithms
+Lab-no:      Lab-10
+Description: Implement Greedy Approach to Vertex Cover problem
+Guidance by: Prof Ashish K Gor
+Date:        24/09/2021
+*********************************************************/
 #include <bits/stdc++.h>
 using namespace std;
 void fin()
