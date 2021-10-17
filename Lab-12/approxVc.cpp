@@ -63,11 +63,36 @@ public:
     }
     int getNextVertice()
     {
+        int n = 0;
         for (auto x : graph)
         {
             if (x.second.size() > 0)
             {
-                return x.first;
+                n++;
+            }
+        }
+        int seed;
+        if (n != 0)
+        {
+            srand(time(0));
+            seed = rand() % n;
+        }
+        else
+        {
+            return -1;
+        }
+
+        int cc = 0;
+        for (auto x : graph)
+        {
+            if (x.second.size() > 0)
+            {
+
+                if (cc == seed)
+                {
+                    return x.first;
+                }
+                cc++;
             }
         }
         return -1;
