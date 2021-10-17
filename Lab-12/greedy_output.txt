@@ -1,0 +1,63 @@
+----------------------------------------------------------
+Case:#1
+Final Selected Vertices
+2 3 
+Final State of the graph
+1->
+2->
+3->
+4->
+----------------------------------------------------------
+Case:#2
+Final Selected Vertices
+2 3 0 5 
+Final State of the graph
+0->
+1->
+2->
+3->
+4->
+5->
+6->
+----------------------------------------------------------
+Case:#3
+Final Selected Vertices
+1 2 3 
+Final State of the graph
+0->
+1->
+2->
+3->
+4->
+5->
+----------------------------------------------------------
+Case:#4
+Final Selected Vertices
+1 
+Final State of the graph
+1->
+2->
+3->
+4->
+5->
+6->
+----------------------------------------------------------
+Case:#5
+Final Selected Vertices
+4 0 
+Final State of the graph
+0->
+1->
+2->
+3->
+4->
+----------------------------------------------------------
+Case:#6
+Final Selected Vertices
+3 
+Final State of the graph
+0->
+1->
+2->
+3->
+----------------------------------------------------------
