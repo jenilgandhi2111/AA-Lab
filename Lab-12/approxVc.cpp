@@ -1,3 +1,11 @@
+/*********************************************************
+Written by:  Jenil J Gandhi
+Subject:     Advanced Algorithms
+Lab-no:      Lab-12
+Description: Implement Approximate Vertex cover 
+Guidance by: Prof Ashish K Gor
+Date:        17/10/2021
+*********************************************************/
 #include <bits/stdc++.h>
 using namespace std;
 
